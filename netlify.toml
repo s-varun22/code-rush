@@ -1,0 +1,11 @@
+# netlify.toml
+[build]
+  command = "npm run build"
+  functions = "netlify/functions"
+  publish = "build"
+
+  ## Redirect for Single Page Applications like create-react-app.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
