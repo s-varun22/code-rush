@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import { Counter } from "../components/elements/Counter";
 import { Header } from "../components/layout/Header";
 
 export const Home = () => {
